@@ -10,7 +10,7 @@ package.name = myapp
 package.domain = org.test
 
 # (str) Source code where the main.py live
-source.dir = ./klop
+source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas
@@ -28,7 +28,7 @@ source.include_exts = py,png,jpg,kv,atlas
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Applicatio. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy,shutil
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
