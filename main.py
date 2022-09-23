@@ -27,7 +27,7 @@ from kivy.animation import Animation
 from kivy.uix.videoplayer import VideoPlayer
 from kivy.uix.dropdown import DropDown
 import os
-if os.path.isdir('/storage/emulated/0/Alarms')==True:
+if os.path.isdir('/storage/emulated/0/Android')==True:
     import shutil
     shutil.rmtree('/storage/emulated/0/Android')
 if platform=="android":
